@@ -1,6 +1,15 @@
 * {
   font-family: "Nanum Gothic", sans-serif;
   box-sizing: border-box;
+
+
+}
+
+body {
+  background-image: url("./assets/Background.jpg");
+  margin: 0px;
+  
+  max-width: 100%;
 }
 
 .logo {
@@ -15,12 +24,10 @@ header {
   background-image: linear-gradient(to left, #F999B7, #F9C5D5);
   text-align: left;
   padding-bottom: 5px;
-  padding-top: 20px; 
+  padding-top: 20px;
 }
 
-.carrito {
-  padding-right: 40px;
-}
+
 .flex {
   flex-grow: 1;
   text-align: center;
@@ -29,6 +36,39 @@ header {
   border: 3px solid #F999B7;
   border-radius: 5px;
   background-color: white;
-  /* flex-direction: column; */ }
-  .flex:hover {
-    background-color: #ccc; }
+  
+}
+
+.flex:hover {
+  background-color: #ccc;
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    font-size: 15px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  footer {
+    height: 50px;
+  }
+
+  .checkmark {
+    height: 15px;
+    width: 15px;
+  }
+
+  .container .checkmark:after {
+    top: 5px;
+    left: 4.5px;
+    width: 6.5px;
+    height: 6.5px;
+  }
+
+  .btn-grace {
+    padding: 0 40px;
+  }
+}
