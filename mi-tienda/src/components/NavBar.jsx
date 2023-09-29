@@ -12,10 +12,11 @@ const NavBar = () => {
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <div class="navbar-nav ">
                         <a class="nav-link flex col-4" href="./index.html">Inicio</a>
-                        <a class="nav-link flex col-4" href="./pages/about.html">Nosotros</a>
-                        <a class="nav-link flex col-4" href="./pages/products.html">Productos</a>
-                        <a class="nav-link flex col-4" href="./pages/contact.html">Contacto</a>
-                        <a class="nav-link flex col-4" href="./pages/sale.html">SALE</a>
+                        <a class="nav-link flex col-4" href="">Nosotros</a>
+                        <a class="nav-link flex col-4" href="">Productos</a>
+                        <a class="nav-link flex col-4" href="">Contacto</a>
+                        <a class="nav-link flex col-4" href="">SALE</a>
+                        <CartWidget/>
                     </div>
 
                 </div>
