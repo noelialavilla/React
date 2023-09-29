@@ -1,6 +1,7 @@
 import logo from './assets/GraceAromasLogo.png';
 import './App.css';
 import NavBar from "./components/NavBar";
+import ItemListContainer from './components/ItemListContainer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <div class="row col-12">
 
         <NavBar />
+        <ItemListContainer greeting= "Bienvenido a Grace Aromas"/>
 
       </div>
     </header>

@@ -1,7 +1,11 @@
 import React from "react";
-const ItemListContainer = () => {
+const ItemListContainer = (props) => {
+    const {greeting} = props;
+
     return (
-        <div></div>
+        <div className= "greetings">
+            <h1>{greeting}</h1>
+        </div>
     )
 }
 
